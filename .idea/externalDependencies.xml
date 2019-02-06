@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="PythonCore" />
+    <plugin id="SeleniumPlugin" />
+    <plugin id="me.aristotll.python.typing.adder" />
+  </component>
+</project>
