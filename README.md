@@ -1,15 +1,20 @@
 # XMLOperations
 
-Package: XML Operations
-Author : Rishu Sarpal
-Date : 06/01/2019
-Description: Read any input XML , Search Tagnames and Update Values.
+ - Package: com.rsarpal.xmloperations.XMLOperations 
+ - Author : Rishu Sarpal
+ - Date : 06/01/2016
 
-   Constructor:
+## Description: 
+   Provides methods to perform XML operation against XML String or XML Files. Read any input XML. 
+   Various methods are provided to Search for XML elements and to perform Get and Update operations.
+   
+## Package Jar:
+   /out/artifacts/xmloperations/xmloperations.jar
+## Constructor:
        XMLOperations(inputFile) - Pass the path of source input XML.
        XMLOperations() - creates a DocumentBuilder object to further use parseStringToXML() , toString() functions
 
-   Methods:
+## Methods:
         1. public Node getParent(String tagName) - get first matching parent Node matching a tagName
         2. public Node getParentIndex(String tagName, int index) -get index based matching parent Node matching a tagName eg 1st or 4th
         3. public int getListCount (String tagName) - get count of number of occurrences of a tagname in XML
